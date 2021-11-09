@@ -24,7 +24,6 @@ export class TasksController {
     } else {
       return this.tasksService.getAllTasks();
     }
-    // return this.tasksService.getAllTasks();
   }
 
   @Get('/:id')
